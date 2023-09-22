@@ -1,0 +1,32 @@
+# Archivos compilados
+*.class
+
+# Directorios de compilación y dependencias
+target/
+lib/
+out/
+
+# Archivos de configuración del IDE
+.idea/
+*.iml
+
+# Archivos de configuración del sistema
+.DS_Store
+*.swp
+*~
+
+# Logs y archivos binarios
+*.log
+
+# REPL history
+.repl-history
+
+# User-specific files
+*.rebel
+
+# Leiningen and Boot directories
+.lein-*
+.boot/
+
+# Other common directories
+resources/public/lib/
