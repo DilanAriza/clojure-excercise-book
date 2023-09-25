@@ -5,6 +5,7 @@
 ; ===        ===
 (def example-map {:a1 {:a2 {:a3 "level a3 v1"} } :b1 {:b2 {:b3 "level b3 v1"} } } )
 
+(def example-map-2 {:a1 {:a2 {:a3 "Hola" } } :b1 {:b2 {:b3 20} } } )
 
 ; assoc-in se utiliza para para asociar un valor, a una clave dentro de una ruta de una estructura de datos anidada (un objeto por ejemplo)
 ; los parametros son los siguientes: assoc-in estructura-de-datos ruta-de-clave valor-a-asignar
